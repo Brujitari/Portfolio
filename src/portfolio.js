@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Nati Montes",
+  username: "Nati M.",
   title: "Hey all, I'm Nati",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs and other modern libraries and frameworks."
@@ -107,23 +107,36 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "The Bridge",
+      logo: require("./assets/images/thebridgelogo2.png"),
+      subHeader: "Full-stack web development",
+      duration: "January 2022 - Sept 2022",
+      desc: "Graduated top of the class developing responsive full-stack apps",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "HTML5, CSS3, JavaScript ES6",
+        "APIs version control with Git",
+        "HTML5, CSS3, JavaScript ES6",
+        "Back with NodeJS, PostgreSQL and MongoDB",
+        "Cloud environments, CaaS architecture",
+        "DevOps methodologies",
+        "Scrum, Dailys and team communication through Github",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "EOI",
+      logo: require("./assets/images/eoilogo2.jpg"),
+      subHeader: "Digital marketing",
+      duration: "February 2019 - April 2019",
+      desc: "Ranked top 10% in the program",
+      descBullets: [
+        "RRSS: Facebook Ads, Instagram Ads, target audience segmentation tools. Social media positioning performance monitoring (SMO)",
+        "SEM: AdWords, campaign management and optimization",
+        "SEO: Yoast SEO, search engine strategy and optimization. Experience in keyword research tools",
+        "GoogleAnalytics, big data, KIPs selection and dashboard development",
+        "Marketing and digital communication: content generation techniques, copywriting and advertisement",
+        "Product and service design (briefing, DAFO). Strategy based on needs identification",
+        "Web layout with Wordpress, Wix"
+      ]
     }
   ]
 };

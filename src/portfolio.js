@@ -115,7 +115,6 @@ const educationInfo = {
       descBullets: [
         "HTML5, CSS3, JavaScript ES6",
         "APIs version control with Git",
-        "HTML5, CSS3, JavaScript ES6",
         "Back with NodeJS, PostgreSQL and MongoDB",
         "Cloud environments, CaaS architecture",
         "DevOps methodologies",

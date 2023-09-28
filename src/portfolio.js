@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Nati M.",
+  username: "Nati Montes",
   title: "Hey all, I'm Nati",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 with experience building Web applications with JavaScript / Reactjs / Nodejs and other modern libraries and frameworks."
@@ -245,51 +245,39 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google IT Support",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Hands-on practise-based asessments in english that made me competent in troubleshooting and customer service, networking, operating systems, system administration and security.",
+      image: require("./assets/images/googlelogo1.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.coursera.org/account/accomplishments/professional-cert/36A92MH2ZMPZ"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Hacktoberfest 2022",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "I contributed significantly to diverse open source projects reaching the maximun contribution level",
+      image: require("./assets/images/hflogo2.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Hacktoberfest badge",
+          url: "https://www.holopin.io/userbadge/cl9wumw8q341308jqfyzoh0qf"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Digital marketing",
+      subtitle: "Completed Certifcation from EOI for web marketing",
+      image: require("./assets/images/eoilogo1.jpg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://portal.etitulo.com/visor.aspx?o=p&id=KpNtP"},
       ]
     }
   ],
@@ -363,7 +351,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "itWorksOnLocal", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

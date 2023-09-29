@@ -344,8 +344,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+34 698163193",
+  email_address: "natimontesg2@gmail.com"
 };
 
 // Twitter Section

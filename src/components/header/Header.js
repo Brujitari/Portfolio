@@ -7,13 +7,13 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
+  educationInfo,
   achievementSection
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewOpenSource = openSource.display;
+  const viewEducationInfo = educationInfo.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
 
@@ -39,9 +39,9 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {viewOpenSource && (
+          {viewEducationInfo && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#education">Education</a>
             </li>
           )}
           {viewAchievement && (
